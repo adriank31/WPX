@@ -185,6 +185,17 @@ sudo python3 wpx.py pmkid \
 sudo python3 wpx.py history
 ```
 
+### Evil Twin Attack Mode B
+
+```bash
+sudo ./venv/bin/python3 wpx.py evil-twin \
+  --iface-a wlan0 \
+  --iface-b eth0 \
+  --ssid "Starbucks or can enter xfinitywifi" \
+  --channel 6 \
+  --mode B
+```
+
 ---
 
 ## Security Notice
